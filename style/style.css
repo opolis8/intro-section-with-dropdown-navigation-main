@@ -240,6 +240,10 @@ body main .side-image .img-mobile {
      object-fit: contain;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 @media (max-width: 800px) {
   body .navbar {
     padding: 2rem 1rem;
