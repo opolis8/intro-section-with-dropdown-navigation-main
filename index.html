@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="./images/logo.svg" alt="" />
+      <div class="primary-header">
+        <div class="left">
+          <ul>
+            <li id="Features">
+              <a href="#"
+                >Features
+                <span
+                  ><img
+                    class="notclick"
+                    src="./images/icon-arrow-down.svg"
+                    alt="down" />
+                  <img
+                    class="clicked"
+                    src="./images/icon-arrow-up.svg"
+                    alt="up" /></span
+              ></a>
+
+              <ul class="drop-down">
+                <li>
+                  <img src="./images/icon-todo.svg" alt="todo" />Todo List
+                </li>
+                <li>
+                  <img
+                    src="./images/icon-calendar.svg"
+                    alt="Calendar"
+                  />Calendar
+                </li>
+                <li>
+                  <img
+                    src="./images/icon-reminders.svg"
+                    alt="Reminders"
+                  />Reminders
+                </li>
+                <li>
+                  <img
+                    src="./images/icon-planning.svg"
+                    alt="planning"
+                  />Planning
+                </li>
+              </ul>
+            </li>
+            <li id="company">
+              <a href="#"
+                >Company
+                <span
+                  ><img
+                    class="notclick"
+                    src="./images/icon-arrow-down.svg"
+                    alt="down" />
+                  <img
+                    class="clicked"
+                    src="./images/icon-arrow-up.svg"
+                    alt="up"
+                /></span>
+              </a>
+
+              <ul class="drop-down two">
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </ul>
+            </li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <ul>
+            <li>Login</li>
+            <li class="button">Register</li>
+          </ul>
+        </div>
+      </div>
+      <div class="icon nav-icon-5">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <main>
+      <div class="content">
+        <div class="text">
+          <h1>Make remote work</h1>
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button>Learn more</button>
+          <div class="sponsor">
+            <img src="/images/client-databiz.svg" alt="databiz" />
+            <img src="/images/client-audiophile.svg" alt="audiophile" />
+            <img src="/images/client-meet.svg" alt="meet" />
+            <img src="/images/client-maker.svg" alt="maker" />
+          </div>
+        </div>
+      </div>
+      <div class="side-image">
+        <img
+          class="img-desktop"
+          src="/images/image-hero-desktop.png"
+          alt="hero-desktop"
+        />
+        <img
+          class="img-mobile"
+          src="/images/image-hero-mobile.png"
+          alt="hero-mobile"
+        />
+      </div>
+    </main>
+
+    <script src="/script/index.js"></script>
+  </body>
+</html>
